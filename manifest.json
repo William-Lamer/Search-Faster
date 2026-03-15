@@ -12,19 +12,12 @@
         "default_icon": "icon.png"
     },
     "commands": {
-        "open_first_result": {
+        "activate_search_mode": {
             "suggested_key": {
-                "default": "Alt+1",
-                "mac": "Command+Shift+1"
+                "default": "Alt+Shift+F",
+                "mac": "Command+Shift+F"
             },
-            "description": "Gets the first search result"
-        },
-        "open_first_result_new_tab": {
-            "suggested_key": {
-                "default": "Alt+Shift+1",
-                "mac":"Command+Shift+9"
-            },
-            "description": "Opens first search result in new tab"
+            "description": "Turns on the extension"
         }
     },
     "background": {
