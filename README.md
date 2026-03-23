@@ -4,7 +4,7 @@ Open any Google search result instantly. No mouse required.
 --- 
 
 ## What is it?
-Leaper is a Chrome extension that lets you navigate Google search results entirely from the keyboard. Hold `Alt` to reveal numbered badges on every result, then press a digit to go there directly, or open several at one in background tabs
+Leaper is a Chrome extension that lets you navigate Google search results entirely from the keyboard. Hold `Alt` to reveal numbered badges on every result, then press a digit to go there directly, or open several at once in background tabs.
 
 | Shortcut | Action |
 |---|---|
@@ -15,8 +15,8 @@ Leaper is a Chrome extension that lets you navigate Google search results entire
 Badges disappear the moment you release `Alt`. Results glow briefly on activation so you always know what was triggered.
 
 --- 
-## Why I build this
-90% of the time i search something into Google I do two things. Either I want the top search result (google's search algorithm is pretty good), or I want to open the first few tabs in the background so I can read through them. And no matter how much I looked there didn't seem to be any tool publicly available (and high quality) that could allow me to just do these two simple things. So I started to work on this as a personal tool, and later turned it into a personal project to explore the Chrome Extension API and familiarize myself with the platform. 
+## Why I built this
+90% of the time i search for something in Google I do two things. Either I want the top search result (google's search algorithm is pretty good), or I want to open the first few tabs in the background so I can read through them. And no matter how much I looked there didn't seem to be any tool publicly available (and high quality) that could allow me to just do these two simple things. So I started to work on this as a personal tool, and later turned it into a personal project to explore the Chrome Extension API and familiarize myself with the platform. 
 
 
 ---
@@ -46,7 +46,7 @@ Search-Faster/
 
 ## Installation
  
-> The extension is not yet on the Chrome Web Store. I am currently in the process of registering a CWS developer account but in the mean time, you can install it in developer mode:
+> The extension is not yet on the Chrome Web Store. I am currently in the process of registering a CWS developer account but in the meantime, you can install it in developer mode:
  
 1. Clone the repo
    ```bash
