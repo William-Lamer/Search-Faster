@@ -8,17 +8,6 @@ let hintElements = [];
 let injectedStyleEl = null;
 
 
-
-
-chrome.runtime.onMessage.addListener((request) => {
-  if (request.action === "activate_search_mode") {
-    showHints();
-  }
-});
-
-
-
-
 document.addEventListener(
   "keydown",
   (e) => {
@@ -42,13 +31,13 @@ document.addEventListener(
     hideHints();
 
     if (!e.shiftKey) {
-      // Alt + i → open result i in current tab
+      // Alt + i to open result i in current tab
       const target = results[num - 1];
       if (!target) return;
       applyGlow(target, "single");
       setTimeout(() => window.open(target.href, "_self"), CONFIG.navigateDelay);
     } else {
-      // Alt + Shift + i → open first i results in background tabs
+      // Alt + Shift + i to open first i results in background tabs
       results.slice(0, num).forEach((link) => {
         applyGlow(link, "multi");
         chrome.runtime.sendMessage({ openBackgroundTab: link.href });

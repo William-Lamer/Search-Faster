@@ -1,8 +1,8 @@
 {
-    "name": "Search Faster",
+    "name": "Leaper",
     "manifest_version": 3,
     "version": "1.0",
-    "description": "Gives customizable shortcuts to search quickly",
+    "description": "Gives shortcuts to navigate Google search results without a mouse.",
     "permissions": [
         "activeTab",
         "scripting"
@@ -10,15 +10,6 @@
     "action": {
         "default_popup": "hello.html",
         "default_icon": "icon.png"
-    },
-    "commands": {
-        "activate_search_mode": {
-            "suggested_key": {
-                "default": "Alt+Shift+F",
-                "mac": "Command+Shift+F"
-            },
-            "description": "Turns on the extension"
-        }
     },
     "background": {
         "service_worker": "background.js"
