@@ -54,7 +54,6 @@ Search-Faster/
 - **Capture-phase listeners:** — event listeners registered with `{ capture: true }` intercept keystrokes before the page's own JS, preventing interference on JS-heavy pages
 **Absolute-positioned badges:** Badges use `position: absolute` with `window.scrollX/Y + getBoundingClientRect()` to anchor them to document coordinates rather than the viewport; they move with the page naturally with zero JS and no scroll handler needed
 - **URL safety guard:** Background.js rejects any non-`http(s)` message before creating a tab
-- **Background tabs open adjacent:** New tabs insert next to the current tab (`index + 1`) rather than at the end of the tab bar
 - **Only active on search:** The extension is only active on search pages. Guarantees privacy and performance. 
 ---
 
