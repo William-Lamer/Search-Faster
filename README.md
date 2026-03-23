@@ -14,6 +14,19 @@ Leaper is a Chrome extension that lets you navigate Google search results entire
 
 Badges disappear the moment you release `Alt`. Results glow briefly on activation so you always know what was triggered.
 
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/testing leaper2.gif" width="100%" alt="Single result navigation"/>
+      <sub><b>Alt + 1–9</b> — open a result in the current tab</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/testing leaper3" width="100%" alt="Multi-tab navigation"/>
+      <sub><b>Alt + Shift + 1–9</b> — open the first <i>n</i> results in background tabs</sub>
+    </td>
+  </tr>
+</table>
 --- 
 ## Why I built this
 90% of the time i search for something in Google I do two things. Either I want the top search result (google's search algorithm is pretty good), or I want to open the first few tabs in the background so I can read through them. And no matter how much I looked there didn't seem to be any tool publicly available (and high quality) that could allow me to just do these two simple things. So I started to work on this as a personal tool, and later turned it into a personal project to explore the Chrome Extension API and familiarize myself with the platform. 
