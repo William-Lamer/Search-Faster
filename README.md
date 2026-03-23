@@ -31,7 +31,7 @@ Badges disappear the moment you release `Alt`. Results glow briefly on activatio
 --- 
 
 ## Why I built this
-90% of the time i search for something in Google I do two things. Either I want the top search result (google's search algorithm is pretty good), or I want to open the first few tabs in the background so I can read through them. And no matter how much I looked there didn't seem to be any tool publicly available (and high quality) that could allow me to just do these two simple things. So I started to work on this as a personal tool, and later turned it into a personal project to explore the Chrome Extension API and familiarize myself with the platform. 
+90% of the time I search for something in Google I do two things. Either I want the top search result (google's search algorithm is pretty good), or I want to open the first few tabs in the background so I can read through them. And no matter how much I looked there didn't seem to be any tool publicly available (and high quality) that could allow me to just do these two simple things. So I started to work on this as a personal tool, and later turned it into a personal project to explore the Chrome Extension API and familiarize myself with the platform. 
 
 
 ---
@@ -39,7 +39,7 @@ Badges disappear the moment you release `Alt`. Results glow briefly on activatio
 ## Technical Overview 
 
 ```
-Search-Faster/
+leaper-chrome-extension/
 ├── manifest.json       # Manifest V3 config. Handles permissions, commands, content scripts
 ├── background.js       # Service worker. Handles command relay, tab creation
 ├── content.js          # Injected into search pages. Handles hints, glows, navigation
@@ -81,7 +81,6 @@ Search-Faster/
 | Shortcuts limited to results 1–9 | Planned: extend to `a`–`z` using `e.key` directly |
 | Opening a result already open in another tab creates a duplicate | Planned: check `chrome.tabs.query` first and focus the existing tab |
 | No Firefox support | Planned: porting to Firefox |
-| Opening a result that's already in another tab opens a duplicate | Planned: check `chrome.tabs.query` first and focus the existing tab |
 | Keybindings are not user-configurable | Planned: settings page via `chrome.storage` |
  
 ---
